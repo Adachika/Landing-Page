@@ -2,28 +2,87 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>landing page</title>
     </head>
 
-    <section>
-        <header>
-            <h1>Landing page</h1>
-        </header>
-    </section>
+    <header> 
+        <nav>
+
+            <h1>
+                <span class="nickname">Ady</span>
+            </h1>
+            <ul>
+                <li><a href="#" class="about-me">
+                    <strong>About</strong>
+                    </a>
+                </li>
+
+                <li><a href="#" class="about-me">
+                    <strong>Favorite things</strong>
+                    </a>
+                </li>
+
+                <li><a href="#contact-info" class="about-me">
+                    <strong>Contact</strong>
+                    </a>
+                    
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    
     <body>
-        <!--Image--><a href="https://imgur.com/V7ardiA">
-        <img src="https://i.imgur.com/V7ardiA.jpg" alt="placeholder image"/> 
-        <section>
-            <h2>Contact form</h2>
+        
+         <p><strong>Hello! Welcome to my page.</strong></p>
+         <p><em>Feel free to connect with me!</em></p>
+
+         <div>
+            <h2>Bio</h2>
+                <p>I was born in Lagos, Nigeria. I attended Embry-Riddle Aeronautical University in Daytona Beach, Florida.</p>
             
+        </div>
+        <div>
+        <!--Image-->
+            <figure>
+            <img src="https://i.imgur.com/V7ardiA.jpg" alt="placeholder image" class="center"/>
+            <figcaption>Ada's graduation photograph</figcaption>
+            </figure>
+        </div>
+
+        <section class="user-info">
+            <h2 id="contact-info">Contact form</h2>
+            <p><strong>Please leave your contact information!</strong></p>
+
+            <form action="#">
+                <label for="name">Name:</label><br>
+                <input
+                    type="text"
+                    name="name"
+                /><br>
+
+                <label for="email">Email:</label><br>
+                <input
+                    type="text"
+                    name="email"
+                /><br>
+
+                <input
+                    type="submit"
+                    value="send"
+                />
+
+
+            </form>
         </section>
 
     </body>
-    <section>
+    <section class="authorship">
             <footer>
                 <p>Author: Ada Chika</p>
-                <p><a href="adachika18@gmail.com">email</a></p>
+                <p><a href="#">adachika18@gmail.com</a></p>
             </footer>
             
     </section>
