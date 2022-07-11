@@ -1,1 +1,1 @@
-# my-first-mini_project
+# Landing Page
